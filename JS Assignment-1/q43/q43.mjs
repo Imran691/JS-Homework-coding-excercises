@@ -7,7 +7,6 @@ function showMagicians() {
 }
 
 function makeGreat() {
-    let greatMagicians = [];
     for (let i = 0; i < magicians.length; i++){
     magicians [i] = "the Great " + magicians[i];
     }
